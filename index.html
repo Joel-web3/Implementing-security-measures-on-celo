@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Dapp</title>
+  <style>
+    /* Add some basic styling */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    input, button {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Simple Dapp</h1>
+ 
+  <div>
+    <input type="text" id="inputText" placeholder="Enter your message">
+    <button onclick="sendMessage()">Send Message</button>
+  </div>
+
+  <div id="messages">
+    <!-- Messages will be displayed here -->
+  </div>
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.5.3/web3.min.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
